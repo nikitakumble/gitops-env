@@ -2,7 +2,7 @@ merge-key: "fyre-sre-dev/sremat-test1/aibroker"
 
 ibm_kmodel:
   mas_instance_id: aibroker
-  aibroker_internal_tls: "-internal-aibroker-tls"
+  aibroker_internal_tls: "aibroker-internal-aibroker-tls"
 
   aibroker_namespace: ""
 
