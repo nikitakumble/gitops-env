@@ -7,23 +7,23 @@ ibm_kmodel:
   aibroker_namespace: ""
 
   # which one from below
-  pull_secret_name: "<path:arn:aws:secretsmanager:us-east-2SM_AWS_ACCOUNT_ID=435377327995::secret:"
+  pull_secret_name: "<path:arn:aws:secretsmanager:us-east-2SM_AWS_ACCOUNT_ID=435377327995::secret:>"
 
   mas_aibroker_storage_provider: "minio"
   mas_aibroker_storage_ssl: "false"
 
   # following are the variable need to injected via environment variable 
-  mas_aibroker_storage_accesskey: "<path:arn:aws:secretsmanager:us-east-2SM_AWS_ACCOUNT_ID=435377327995::secret:fyre-sre-dev/sremat-test1/minio#sm_minio_accesskey"
-  mas_aibroker_storage_secretkey: "<path:arn:aws:secretsmanager:us-east-2SM_AWS_ACCOUNT_ID=435377327995::secret: fyre-sre-dev/sremat-test1/minio#sm_minio_secretkey"
-  mas_aibroker_storage_host: "<path:arn:aws:secretsmanager:us-east-2SM_AWS_ACCOUNT_ID=435377327995::secret:fyre-sre-dev/sremat-test1/minio#sm_minio_host"
-  mas_aibroker_storage_port: "<path:arn:aws:secretsmanager:us-east-2SM_AWS_ACCOUNT_ID=435377327995::secret:fyre-sre-dev/sremat-test1/minio#sm_minio_port"
+  mas_aibroker_storage_accesskey: "<path:arn:aws:secretsmanager:us-east-2SM_AWS_ACCOUNT_ID=435377327995::secret:fyre-sre-dev/sremat-test1/minio#sm_minio_accesskey>"
+  mas_aibroker_storage_secretkey: "<path:arn:aws:secretsmanager:us-east-2SM_AWS_ACCOUNT_ID=435377327995::secret:fyre-sre-dev/sremat-test1/minio#sm_minio_secretkey>"
+  mas_aibroker_storage_host: "<path:arn:aws:secretsmanager:us-east-2SM_AWS_ACCOUNT_ID=435377327995::secret:fyre-sre-dev/sremat-test1/minio#sm_minio_host>"
+  mas_aibroker_storage_port: "<path:arn:aws:secretsmanager:us-east-2SM_AWS_ACCOUNT_ID=435377327995::secret:fyre-sre-dev/sremat-test1/minio#sm_minio_port>"
   mas_aibroker_storage_region: ""
 
   # Bucket names
   # Hardcode or export
-  mas_aibroker_storage_templates_bucket: "<path:arn:aws:secretsmanager:us-east-2SM_AWS_ACCOUNT_ID=435377327995::secret:fyre-sre-dev/sremat-test1/minio#sm_minio_bucket_templates"
-  mas_aibroker_storage_tenants_bucket: "<path:arn:aws:secretsmanager:us-east-2SM_AWS_ACCOUNT_ID=435377327995::secret:fyre-sre-dev/sremat-test1/minio#sm_minio_bucket_tenants"
-  mas_aibroker_storage_pipelines_bucket: "<path:arn:aws:secretsmanager:us-east-2SM_AWS_ACCOUNT_ID=435377327995::secret:fyre-sre-dev/sremat-test1/minio#sm_minio_bucket_pipelines"
+  mas_aibroker_storage_templates_bucket: "<path:arn:aws:secretsmanager:us-east-2SM_AWS_ACCOUNT_ID=435377327995::secret:fyre-sre-dev/sremat-test1/minio#sm_minio_bucket_templates>"
+  mas_aibroker_storage_tenants_bucket: "<path:arn:aws:secretsmanager:us-east-2SM_AWS_ACCOUNT_ID=435377327995::secret:fyre-sre-dev/sremat-test1/minio#sm_minio_bucket_tenants>"
+  mas_aibroker_storage_pipelines_bucket: "<path:arn:aws:secretsmanager:us-east-2SM_AWS_ACCOUNT_ID=435377327995::secret:fyre-sre-dev/sremat-test1/minio#sm_minio_bucket_pipelines>"
 
   ssh_secret_name: "-kmodel-aibroker-tls"
   
