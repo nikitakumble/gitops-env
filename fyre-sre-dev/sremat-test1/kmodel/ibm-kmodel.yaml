@@ -21,9 +21,12 @@ ibm_kmodel:
 
   # Bucket names
   # Hardcode or export
-  mas_aibroker_storage_templates_bucket: "<path:arn:aws:secretsmanager:us-east-2:435377327995:secret:fyre-sre-dev/sremat-test1/minio#sm_minio_bucket_templates>"
-  mas_aibroker_storage_tenants_bucket: "<path:arn:aws:secretsmanager:us-east-2:435377327995:secret:fyre-sre-dev/sremat-test1/minio#sm_minio_bucket_tenants>"
-  mas_aibroker_storage_pipelines_bucket: "<path:arn:aws:secretsmanager:us-east-2:435377327995:secret:fyre-sre-dev/sremat-test1/minio#sm_minio_bucket_pipelines>"
+#  mas_aibroker_storage_templates_bucket: "<path:arn:aws:secretsmanager:us-east-2:435377327995:secret:fyre-sre-dev/sremat-test1/minio#sm_minio_bucket_templates>"
+  mas_aibroker_storage_templates_bucket: "km-templates"
+#  mas_aibroker_storage_tenants_bucket: "<path:arn:aws:secretsmanager:us-east-2:435377327995:secret:fyre-sre-dev/sremat-test1/minio#sm_minio_bucket_tenants>"
+  mas_aibroker_storage_tenants_bucket: "km-tenants"
+#  mas_aibroker_storage_pipelines_bucket: "<path:arn:aws:secretsmanager:us-east-2:435377327995:secret:fyre-sre-dev/sremat-test1/minio#sm_minio_bucket_pipelines>"
+  mas_aibroker_storage_pipelines_bucket: "km-pipelines"
 
   ssh_secret_name: "aibroker-kmodel-aibroker-tls"
   
