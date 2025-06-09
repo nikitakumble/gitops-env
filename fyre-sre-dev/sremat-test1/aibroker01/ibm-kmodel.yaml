@@ -17,11 +17,13 @@ ibm_kmodel:
   mas_aibroker_storage_port: "<path:arn:aws:secretsmanager:us-east-2:435377327995:secret:fyre-sre-dev/sremat-test1/minio#sm_minio_port>"
   mas_aibroker_storage_region: ""
 
-  mas_aibroker_storage_templates_bucket: "<path:arn:aws:secretsmanager:us-east-2:435377327995:secret:fyre-sre-dev/sremat-test1/minio#sm_minio_bucket_templates>"
-  mas_aibroker_storage_tenants_bucket: "<path:arn:aws:secretsmanager:us-east-2:435377327995:secret:fyre-sre-dev/sremat-test1/minio#sm_minio_bucket_tenants>"
-  mas_aibroker_storage_pipelines_bucket: "<path:arn:aws:secretsmanager:us-east-2:435377327995:secret:fyre-sre-dev/sremat-test1/minio#sm_minio_bucket_pipelines>"
+  mas_aibroker_storage_templates_bucket: "<path:arn:aws:secretsmanager:us-east-2:435377327995:secret:>"
+  mas_aibroker_storage_tenants_bucket: "<path:arn:aws:secretsmanager:us-east-2:435377327995:secret:>"
+  mas_aibroker_storage_pipelines_bucket: "<path:arn:aws:secretsmanager:us-east-2:435377327995:secret:>"
 
   ssh_secret_name: "aibroker-kmodel-aibroker-tls"
+
+  pullSecretName: "ibm-entitlement"
   
   docker_server: "docker-na-public.artifactory.swg-devops.com/wiotp-docker-local/aibroker"
 
